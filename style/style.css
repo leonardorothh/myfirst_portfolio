@@ -57,6 +57,13 @@ body {
     color: #22D4FD;
 }
 
+
+.conteudo__texto__aboutme {
+    font-size: 1.11rem;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1.55rem;
+}
+
 .conteudo__botoes {
     display: flex;
     flex-direction: column;
@@ -102,22 +109,35 @@ body {
 }
 
 @media (max-width: 1248px) {
-    .conteudo {
+    .conteudo 
+    {
         flex-direction: column-reverse;
-        padding: 5%;
+     
         
     }
-    .conteudo__texto {
+    .conteudo__texto
+    {
         width: auto;
     }
     .navegacao {
         justify-content: center;
         padding: 6%;
     }
+    .conteudo__texto__aboutme {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        width: auto;
+    }
+    .conteudo__img {
+        display: flex;
+        justify-content: center;
+    }
 }
 
 @media (max-width: 1050px) {
     .conteudo__img {
         width: 370px;
+        justify-content: center;
     }
 }
