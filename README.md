@@ -5,4 +5,4 @@ Você pode acessar o projeto final através do link:
 
 https://myfirst-portfolio-ten.vercel.app/index.html
 
-<img src="img/gif__pikachu.gif">
+<img align="center" src="img/gif__pikachu.gif">
